@@ -93,6 +93,7 @@ else{
 
 //function to add food in stock
 function addFoods(){
+  console.log(foodS);
   foodS++;
   database.ref('/').update({
     Food:foodS
